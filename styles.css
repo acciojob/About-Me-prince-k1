@@ -1,1 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 
+body{
+  display: flex;
+  gap: 50px;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.main .info{
+  display: flex;
+  /* justify-content: space-around; */
+  gap: 20px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.flex{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.me{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+#skills{
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+#skills .skill{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container{
+  width: 100%;
+  background-color: #CBDFF6;
+  height: 10px;
+}
+
+#html .container .percentage{
+  width: 70%;
+  background-color: #0C78FF;
+  height: 10px;
+}
+
+#css .container .percentage{
+  width: 60%;
+  background-color: #0C78FF;
+  height: 10px;
+}
+
+#js .container .percentage{
+  width: 50%;
+  background-color: #0C78FF;
+  height: 10px;
+}
+
+.aboutMe{
+  padding: 20px;
+  width: 50%;
+  margin-right: 50px;
+}
